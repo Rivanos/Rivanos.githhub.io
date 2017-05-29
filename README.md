@@ -1,2 +1,0 @@
-# Rivanos.githhub.io
-Portefolio
