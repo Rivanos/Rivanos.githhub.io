@@ -6,13 +6,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  text-shadow: black 0.3em 0.3em 0.3em;
+  text-shadow: white 0.3em 0.3em 0.3em;
 }
-
-.BounceInup {
-  animation-name: bounceInUp;
+.float {
+  float: right;
 }
-
 @keyframes BounceInup {}
 
 0% {
@@ -60,9 +58,7 @@
 }
 .btn:hover {
   background-color: rgba(27, 31, 30, 0.56);
-}
-.push-spaces {
-  height: 500px;
+  color: white;
 }
 .navbar {
   position: fixed;
@@ -156,4 +152,3 @@ html {
   animation-duration: 2s;
   animation-timing-function: linear;
 }
-.carousel-inner>.item {}
